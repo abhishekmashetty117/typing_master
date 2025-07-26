@@ -2,7 +2,7 @@
 	session_start();
 ?>
 <?php
-	$r = mysqli_connect("localhost","root","","pr");
+	$r = mysqli_connect("localhost","root","","typinghands");
 	if(!$r){
 		echo mysqli_error();
 		echo "CONNECTION ERROR";

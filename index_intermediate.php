@@ -71,7 +71,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <h6>Welcome to the world of <span class="w3-tag w3-xlarge">Typing</span></h6>
   </header>
 
-	<?php include"index_typing_basic.php" ?>
+	<?php include"index_typing_intermediate.php" ?>
 	<?php include"callback.php" ?>
   <!-- Grid -->
   <div class="w3-row w3-padding w3-border">
@@ -82,7 +82,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <!-- Blog entry -->
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-center">
-          <!--<h3>ABOUT YOU</h3>-->		
+          <!--<h3>ABOUT YOU</h3>-->
           <h5><span class="w3-opacity w3-wide"><?php 
 			$mydate=getdate(date("U"));
 			echo $mydate[month]," ", $mydate[mday],", ", $mydate[year]; ?></span></h5>
@@ -245,4 +245,3 @@ function likeFunction(x) {
 		<div class="se-pre-con"></div>
 		<!-- Ends -->
 </html>
-

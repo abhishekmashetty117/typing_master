@@ -5,7 +5,7 @@
 // get the q,r,s,t parameter from URL
 //$q = $_REQUEST["q"];
 
-$database=mysqli_connect("localhost","root","","pr");
+$database=mysqli_connect("localhost","root","","typinghands");
 	if(!$database)
 	{
 		echo mysqli_error();

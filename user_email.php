@@ -5,7 +5,7 @@
 $q = $_REQUEST["q"];
 
 
-$database=mysqli_connect("localhost","root","","pr");
+$database=mysqli_connect("localhost","root","","typinghands");
 	if(!$database)
 	{
 		echo mysqli_error();
@@ -54,5 +54,5 @@ if ($q !== "" ){
 
 
 // Output "no suggestion" if no hint was found or output correct values 
-
+//echo $hint;
 ?>
